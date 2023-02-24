@@ -265,6 +265,11 @@ body {
 .btn-list {
   list-style: none;
   text-decoration: none;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .btn-link {
   display: inline-block;
@@ -288,6 +293,7 @@ body {
   color: var(--primary-white-color);
   background: var(--accent-button-color);
 }
+
 /* --------------------section advantage */
 .advantages-link {
   text-decoration: none;
@@ -315,4 +321,5 @@ body {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  color: var(--footer-border-text-color);
 }
